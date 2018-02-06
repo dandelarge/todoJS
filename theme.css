@@ -1,0 +1,88 @@
+/* reset rules */
+body, section {
+  display: flex;
+  flex-flow: column;
+  font-family: roboto, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Todo App specific content */
+
+.todo-list-viewport {
+  border: 1px solid #999;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: scroll;
+  height: 400px;
+}
+
+section.todo-app {
+  padding: 20px;
+  height: 500px;
+  justify-content: space-between;
+}
+
+ul.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.todo-item {
+  display: flex;
+  margin: 5px;
+  border: 1px solid #aaa;
+  padding: 10px;
+  align-items: center;
+}
+
+.todo-item-actions {
+}
+
+h3.todo-title {
+  width: 200px;
+  margin: 0;
+}
+
+button.remove-button {
+  display: block;
+}
+
+label {
+  font-size: 14px;
+}
+
+.input-container>input {
+  border: 1px solid #999;
+  font-size: 14px;
+  width: 200px;
+  padding: 5px;
+}
+
+.input-container button {
+  background-color: #ccc;
+  border: 1px solid #666;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+}
+
+.input-container {
+  padding: 10px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.todo-app h1 {
+  margin: 0;
+}
+
+button.remove-button {
+  border: 1px solid #666;
+} 

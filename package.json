@@ -1,0 +1,32 @@
+{
+  "name": "todojs",
+  "version": "1.0.0",
+  "description": "example and comparisson of a small app in different js frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandelarge/todoJS.git"
+  },
+  "keywords": [
+    "js",
+    "angular",
+    "react",
+    "redux",
+    "vue",
+    "todo",
+    "example",
+    "experiment"
+  ],
+  "author": "denial",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandelarge/todoJS/issues"
+  },
+  "homepage": "https://github.com/dandelarge/todoJS#readme",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  }
+}
