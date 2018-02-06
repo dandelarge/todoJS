@@ -58,7 +58,6 @@ function appendtodoElem(item, index) {
   todoElem.innerHTML = todoItemTmp;
   todoElem.querySelector('.todo-title').textContent = item.text;
   const doneCheckbox = todoElem.querySelector('.done-checkbox');
-  console.log(doneCheckbox.checked);
   if (item.done) {
     doneCheckbox.checked = true;
     
