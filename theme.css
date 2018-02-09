@@ -17,7 +17,7 @@ body, section {
   height: 400px;
 }
 
-section.todo-app {
+.todo-app {
   padding: 20px;
   height: 500px;
   justify-content: space-between;
@@ -85,4 +85,4 @@ label {
 
 button.remove-button {
   border: 1px solid #666;
-} 
+}

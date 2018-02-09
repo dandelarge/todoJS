@@ -4,7 +4,9 @@
   "description": "example and comparisson of a small app in different js frameworks",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,20 @@
   },
   "homepage": "https://github.com/dandelarge/todoJS#readme",
   "dependencies": {
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
