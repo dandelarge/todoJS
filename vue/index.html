@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="../theme.css">
+  </head>
+  <body>
+    <section id="todoApp">
+      <h1>Things to do</h1>
+      <div class="input-container">
+        <input type="text" v-model="inputText" placeholder="The new thing I need to do"/>
+        <button @click="addTodo">+</button>
+      </div>
+      <div class="todo-list-viewport">
+        <ul class="todo-list">
+          <li v-for="todoItem in todoList" class="todo-item">
+            <h3 class="todo-title">{{todoItem.text}}</h3>
+            <div class="todo-item-actions">
+              <input type="checkbox" v-model="todoItem.done">
+              <label for="">Done</label>
+              <button class="remove-button">Remove</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
